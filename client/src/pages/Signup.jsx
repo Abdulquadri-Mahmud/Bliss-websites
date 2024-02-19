@@ -7,8 +7,8 @@ export default function Signup() {
   return (
     <>
         <Header2/>
-        <div className="h-[80vh] flex justify-center items-center ">
-            <form className='w-[350px] bg-slate-800 p-4 rounded flex flex-col gap-6'>
+        <div className="h-[80vh] flex justify-center items-center p-3">
+            <form className='md:w-[50%] w-[100%] bg-slate-800 p-4 rounded flex flex-col gap-6'>
                 <div className="">
                     <input className='w-full rounded bg-slate-200 p-3' type="text" placeholder='Name' required/>
                 </div>
