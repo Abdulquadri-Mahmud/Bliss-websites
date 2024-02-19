@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.top{
+    background-color: #f6b606;
+}
+@media screen and (max-width:768px) {
+    .sidebar_cont:hover > .sidemenu{
+        width: 20rem;
+    }
+}
+.homebackground{
+    background-image: url('./assets/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.play{
+    animation: play 2s linear infinite; 
+}
+@keyframes play {
+    0%{
+        background-color: #dde1e7;
+    } 50%{
+        background-color: transparent;
+    } 100%{
+        background-color: #dde1e7;
+    }   
+}
+
+.slick-prev, .slick-next{
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    background-color: #f6b606;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.slick-dots li button{
+    display: none;
+}
+.slick-prev{
+    z-index: 1;
+    left: 65vh;
+}
+.slick-next{
+    z-index: 1;
+    right: 65vh;
+}
+
+.sect2{
+    background-image: linear-gradient(to bottom ,#f6b606, rgb(30, 41, 59));
+}
+
+.date{
+    border-radius: 10px 10px 0px 0px;
+}
+.header h2::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #f6b606;
+    position: absolute;
+    top: 11px;
+    left: -20px;
+}
+.socialLink a:hover > svg{
+    animation: shake 0.1s linear 3;
+}
+@keyframes shake {
+    from{
+        transform: translateX(-2px);
+    }to{
+        transform: translateX(2px);
+    }    
+}
+.btn a{
+    font-size: 16px;
+}
+.btn:hover > a {
+    color: rgb(30, 41, 59);
+}.subscribe{
+    
+}

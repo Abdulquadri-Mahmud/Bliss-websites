@@ -1,14 +1,13 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { FaUserLock } from "react-icons/fa";
 import { RiMenu3Fill } from "react-icons/ri";
-import Header2 from './Header2';
 
-export default function Header() {
+export default function Header2() {
   return (
     <>
-        <Header2/>
-        <div className="">
+        <div className="homebackground">
             <div className="p-5 top"></div>
             <div className="flex justify-between items-center px-6 py-4">
                 <div className="logo">
