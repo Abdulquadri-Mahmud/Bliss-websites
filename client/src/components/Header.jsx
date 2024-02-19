@@ -14,11 +14,11 @@ export default function Header() {
                 </div>
                 <div className="hidden md:block">
                     <nav className="flex gap-x-4">
-                        <Link className='font-semibold text-1xl hover:underline duration-200 hover:text-[#ffbe0a]' to='/'>Home</Link>
-                        <Link className='font-semibold text-1xl hover:underline duration-200 hover:text-[#ffbe0a]' to='/about'>About</Link>
-                        <Link className='font-semibold text-1xl hover:underline duration-200 hover:text-[#ffbe0a]' to='/services'>Services</Link>
-                        <Link className='font-semibold text-1xl hover:underline duration-200 hover:text-[#ffbe0a]' to='/blog'>Blog</Link>
-                        <Link className='font-semibold text-1xl hover:underline duration-200 hover:text-[#ffbe0a]' to='/contact'>Contact Us</Link>
+                        <Link className='font-semibold text-[17px] hover:underline duration-200 hover:text-[#ffbe0a]' to='/'>Home</Link>
+                        <Link className='font-semibold text-[17px] hover:underline duration-200 hover:text-[#ffbe0a]' to='/about'>About</Link>
+                        <Link className='font-semibold text-[17px] hover:underline duration-200 hover:text-[#ffbe0a]' to='/services'>Services</Link>
+                        <Link className='font-semibold text-[17px] hover:underline duration-200 hover:text-[#ffbe0a]' to='/blog'>Blog</Link>
+                        <Link className='font-semibold text-[17px] hover:underline duration-200 hover:text-[#ffbe0a]' to='/contact'>Contact Us</Link>
                     </nav>
                 </div>
                 <div className="hidden md:block">
@@ -35,11 +35,11 @@ export default function Header() {
                             </div>
                             <div className="sidemenu fixed top-0 right-0 z-10 w-0 duration-300 overflow-hidden h-full bg-[#ffbe0a] pt-20">
                                 <nav className="flex flex-col gap-x-4 text-center text-gray-50 p-5">
-                                    <Link className='font-semibold text-xl duration-200 hover:text-gray-200 py-3' to='/'>Home</Link>
-                                    <Link className='font-semibold text-xl duration-200 hover:text-gray-200 py-3' to='/about'>About</Link>
-                                    <Link className='font-semibold text-xl duration-200 hover:text-gray-200 py-3' to='/blog'>Blog</Link>
-                                    <Link className='font-semibold text-xl duration-200 hover:text-gray-200 py-3' to='/services'>Services</Link>
-                                    <Link className='font-semibold text-xl duration-200 hover:text-gray-200 py-3' to='/contact'>Contact Us</Link>
+                                    <Link className='font-semibold text-[17px] duration-200 hover:text-gray-200 py-3' to='/'>Home</Link>
+                                    <Link className='font-semibold text-[17px] duration-200 hover:text-gray-200 py-3' to='/about'>About</Link>
+                                    <Link className='font-semibold text-[17px] duration-200 hover:text-gray-200 py-3' to='/blog'>Blog</Link>
+                                    <Link className='font-semibold text-[17px] duration-200 hover:text-gray-200 py-3' to='/services'>Services</Link>
+                                    <Link className='font-semibold text-[17px] duration-200 hover:text-gray-200 py-3' to='/contact'>Contact Us</Link>
                                 </nav>
                             </div>
                         </div>

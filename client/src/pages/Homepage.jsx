@@ -45,11 +45,11 @@ export default function Homepage() {
                     <div className="">
                         <div className="md:p-5 px-3 py-5 flex gap-4 justify-center items-center flex-wrap md:mt-7 mt-4">
                             <div className="md:w-[40%] w-full ">
-                                <h1 className='md:text-6xl text-4xl font-semibold'>Spa <br /> Center</h1>
-                                <p className='pt-6 font-semibold'>commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit <br /> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
+                                <h1 className='md:text-6xl text-4xl font-semibold text-slate-800'>Spa <br /> Center</h1>
+                                <p className='pt-6 font-semibold text-slate-800 text-[18px]'>commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit <br /> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
                                 <div className="pt-10 flex flex-col md:flex-row mt-4 gap-x-4">
-                                    <button className='bg-[#f6b606] p-3 md:w-[170px] w-[150px] text-gray-50 uppercase rounded-full text-xl font-semibold'>Contact Us</button>
-                                    <button className='bg-[black] p-3 md:w-[170px] mt-4 md:mt-0 w-[150px] text-gray-50 uppercase rounded-full text-xl font-semibold'>Read More</button>
+                                    <button className='bg-[#f6b606] p-3 md:w-[170px] w-[150px] text-gray-50 uppercase rounded-full text-[16px] font-semibold'>Contact Us</button>
+                                    <button className='bg-slate-800 p-3 md:w-[170px] mt-4 md:mt-0 w-[150px] text-gray-50 uppercase rounded-full text-[16px] font-semibold'>Read More</button>
                                 </div>
                             </div>
                             <div className="flex md:w-[55%] md:flex-row md:pt-0 pt-10 w-full justify-between gap-x-5">
@@ -71,11 +71,11 @@ export default function Homepage() {
                     <div className="">
                         <div className="p-5 flex gap-4 justify-center items-center flex-wrap md:mt-7 mt-4">
                             <div className="md:w-[40%] w-full ">
-                                <h1 className='md:text-6xl text-4xl font-semibold'>Spa <br /> Center</h1>
-                                <p className='pt-6 font-semibold'>commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit <br /> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
+                                <h1 className='md:text-6xl text-4xl font-semibold text-slate-800'>Spa <br /> Center</h1>
+                                <p className='pt-6 font-semibold text-slate-800 text-[18px]'>commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit <br /> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
                                 <div className="pt-10 flex flex-col md:flex-row mt-4 gap-x-4">
                                     <button className='text-[16px] bg-[#f6b606] p-3 md:w-[170px] w-[150px] text-gray-50 uppercase rounded-full font-semibold'>Contact Us</button>
-                                    <button className='text-[16px] bg-[black] p-3 md:w-[170px] mt-4 md:mt-0 w-[150px] text-gray-50 uppercase rounded-full font-semibold'>Read More</button>
+                                    <button className='text-[16px] bg-slate-800 p-3 md:w-[170px] mt-4 md:mt-0 w-[150px] text-gray-50 uppercase rounded-full font-semibold'>Read More</button>
                                 </div>
                             </div>
                             <div className="flex md:w-[55%] md:flex-row md:pt-0 pt-10 w-full justify-between gap-x-5">
@@ -97,11 +97,11 @@ export default function Homepage() {
                     <div className="">
                         <div className="p-5 flex gap-4 justify-center items-center flex-wrap md:mt-7 mt-4">
                             <div className="md:w-[40%] w-full ">
-                                <h1 className='md:text-6xl text-4xl font-semibold'>Spa <br /> Center</h1>
-                                <p className='pt-6 font-semibold'>commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit <br /> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
+                                <h1 className='md:text-6xl text-4xl font-semibold text-slate-800'>Spa <br /> Center</h1>
+                                <p className='pt-6 font-semibold text-slate-800 text-[18px]'>commodo consequat. <br /> Duis aute irure dolor in reprehenderit in voluptate velit <br /> esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
                                 <div className="pt-10 flex flex-col md:flex-row mt-4 gap-x-4">
-                                    <button className='bg-[#f6b606] p-3 md:w-[170px] w-[150px] text-gray-50 uppercase rounded-full text-xl font-semibold'>Contact Us</button>
-                                    <button className='bg-[black] p-3 md:w-[170px] mt-4 md:mt-0 w-[150px] text-gray-50 uppercase rounded-full text-xl font-semibold'>Read More</button>
+                                    <button className='bg-[#f6b606] p-3 md:w-[170px] w-[150px] text-gray-50 uppercase rounded-full text-[16px] font-semibold'>Contact Us</button>
+                                    <button className='bg-slate-800 p-3 md:w-[170px] mt-4 md:mt-0 w-[150px] text-gray-50 uppercase rounded-full text-[16px] font-semibold'>Read More</button>
                                 </div>
                             </div>
                             <div className="flex md:w-[55%] md:flex-row md:pt-0 pt-10 w-full justify-between gap-x-5">
@@ -194,7 +194,7 @@ export default function Homepage() {
             <h1 className="font-semibold text-center text-4xl text-slate-50">Our Priceing</h1>
             <p className='font-semibold pt-2 text-center text-slate-50'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
             <div className="mt-10 flex justify-center items-center">
-                <div className="md:w-[80%] w-full flex md:gap-3 gap-14 justify-around flex-wrap p-2 rounded items-center">
+                <div className="md:w-[80%] w-full flex md:gap-3 gap-14 justify-around flex-wrap p-2 rounded items-center mt-0">
                     <div className="bg-slate-100 flex justify-center md:w-[47%] w-[90%] h-[400px] rounded relative">
                         <div className="absolute flex flex-col gap-7 -top-7 w-[90%] text-center rounded p-3 bg-[#f6b606]">
                             <div className="">
@@ -234,8 +234,8 @@ export default function Homepage() {
             <h1 className="font-semibold text-center text-4xl text-slate-800">Latest Blog</h1>
             <p className='font-semibold pt-2 text-center text-slate-800'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
             <div className="mt-10 flex justify-center items-center">
-                <div className="md:w-[80%] w-full flex md:gap-3 gap-4 justify-around flex-wrap p-2 rounded items-center relative">
-                    <div className="p-3 bg-slate-200 rounded w-[100%] md:w-[30%]">
+                <div className="md:w-[80%] w-full flex md:gap-3 gap-4 justify-around flex-wrap p-2 rounded items-center mt-0">
+                    <div className="p-3 bg-slate-200 rounded w-[350px] relative mt-5">
                         <div className="relative flex justify-center">
                             <img src={blog1} alt="blog" className='rounded w-full'/>
                             <div className="absolute bottom-0 w-[130px] text-center p-2 bg-slate-800 text-slate-100 font-semibold date">
@@ -247,10 +247,10 @@ export default function Homepage() {
                             <p className='text-center font-semibold'>sed do eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua. <br /> Ut enim ad minim veniam, quis <br /> nostrud exercitation ullamco <br /> laboris nisi ut aliquip</p>
                         </div>
                         <div className="flex justify-center items-center mt-7">
-                            <button className='absolute -bottom-4 rounded shadow text-slate-100 uppercase font-semibold text-lg bg-[#f6b606] p-3 w-[200px]'>Read More</button>
+                            <button className='hover:bg-slate-800 duration-200 absolute -bottom-5 rounded shadow text-slate-100 uppercase font-semibold text-[16px] bg-[#f6b606] p-2 w-[160px]'>Read More</button>
                         </div>
                     </div>
-                    <div className="p-3 bg-slate-200 rounded w-[100%] md:w-[30%]">
+                    <div className="p-3 bg-slate-200 rounded w-[350px] relative mt-5">
                         <div className="relative flex justify-center">
                             <img src={blog2} alt="blog" className='rounded w-full'/>
                             <div className="absolute bottom-0 w-[130px] text-center p-2 bg-slate-800 text-slate-100 font-semibold date">
@@ -262,10 +262,10 @@ export default function Homepage() {
                             <p className='text-center font-semibold'>sed do eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua. <br /> Ut enim ad minim veniam, quis <br /> nostrud exercitation ullamco <br /> laboris nisi ut aliquip</p>
                         </div>
                         <div className="flex justify-center items-center mt-7">
-                            <button className='absolute -bottom-4 rounded shadow text-slate-100 uppercase font-semibold text-lg bg-[#f6b606] p-3 w-[200px]'>Read More</button>
+                            <button className='hover:bg-slate-800 duration-200 absolute -bottom-5 rounded shadow text-slate-100 uppercase font-semibold text-[16px] bg-[#f6b606] p-2 w-[160px]'>Read More</button>
                         </div>
                     </div>
-                    <div className="p-3 bg-slate-200 rounded w-[100%] md:w-[30%]">
+                    <div className="p-3 bg-slate-200 rounded w-[350px] relative mt-5">
                         <div className="relative flex justify-center">
                             <img src={blog3} alt="blog" className='rounded w-full'/>
                             <div className="absolute bottom-0 w-[130px] text-center p-2 bg-slate-800 text-slate-100 font-semibold date">
@@ -277,7 +277,7 @@ export default function Homepage() {
                             <p className='text-center font-semibold'>sed do eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua. <br /> Ut enim ad minim veniam, quis <br /> nostrud exercitation ullamco <br /> laboris nisi ut aliquip</p>
                         </div>
                         <div className="flex justify-center items-center mt-7">
-                            <button className='absolute -bottom-4 rounded shadow text-slate-100 uppercase font-semibold text-lg bg-[#f6b606] p-3 w-[200px]'>Read More</button>
+                            <button className='hover:bg-slate-800 duration-200 absolute -bottom-5 rounded shadow text-slate-100 uppercase font-semibold text-[16px] bg-[#f6b606] p-2 w-[160px]'>Read More</button>
                         </div>
                     </div>
                 </div>
